@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bagas Ardiansyah | Software Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .saweria-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .card-hover:hover {
+      border-color: #000;
+      transform: translateY(-2px);
+    }
+    .skill-icon {
+      width: 20px;
+      height: 20px;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+<body class="bg-[#fafafa] text-[#1a1a1a] selection:bg-black selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-[#fafafa]/80 backdrop-blur-md border-b border-zinc-200">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <span class="font-bold tracking-tight text-lg"></span>
+      <div class="flex gap-8 text-sm font-medium text-zinc-500">
+        <a href="#experience" class="hover:text-black transition-colors">Experience</a>
+        <a href="#skills" class="hover:text-black transition-colors">Skills</a>
+        <a href="#contact" class="hover:text-black transition-colors">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-5xl mx-auto px-6 py-20 lg:py-32">
+    
+    <!-- Hero Section -->
+    <header class="mb-24">
+      <h1 class="text-5xl md:text-7xl font-bold tracking-tighter mb-6">Bagas Ardiansyah</h1>
+      <p class="text-xl md:text-2xl text-zinc-500 max-w-2xl leading-relaxed text-pretty">
+        Software developer specializing in high-performance backend systems with Java Spring Boot and PHP Laravel. 
+      </p>
+      <div class="mt-10 flex gap-4">
+        <a href="mailto:bagasardi20155@gmail.com" class="bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-zinc-800 transition-all">Get in touch</a>
+        <a href="https://github.com/bagasardi20155" target="_blank" class="border border-zinc-200 px-6 py-3 rounded-full font-medium hover:bg-zinc-100 transition-all">GitHub</a>
+      </div>
+    </header>
+
+    <!-- Experience Grid -->
+    <section id="experience" class="mb-32">
+      <div class="flex items-center justify-between mb-12">
+        <h2 class="text-3xl font-bold tracking-tight">Professional Experience</h2>
+        <span class="text-zinc-400 text-sm font-mono">/ 01</span>
+      </div>
+      
+      <div class="saweria-grid">
+        <!-- Erdigma -->
+        <div class="p-6 bg-white border border-zinc-200 rounded-2xl card-hover transition-all duration-300">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h3 class="font-bold text-lg">Backend Developer</h3>
+              <p class="text-zinc-500 text-sm">PT. Erhanesia Digima Mukitama</p>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-zinc-100 px-2 py-1 rounded">2025 - Present</span>
+          </div>
+          <ul class="text-sm text-zinc-600 space-y-2">
+            <li>• Engineered 3+ high-impact backend modules using Spring Boot</li>
+            <li>• Optimized query execution by 60%-80% via indexing & refactoring</li>
+            <li>• Managed 270k+ monthly transactions ensuring data integrity</li>
+          </ul>
+        </div>
+
+        <!-- Powerhouze -->
+        <div class="p-6 bg-white border border-zinc-200 rounded-2xl card-hover transition-all duration-300">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h3 class="font-bold text-lg">Freelance Backend Dev</h3>
+              <p class="text-zinc-500 text-sm">PT. Powerhouze Baraya Teknologi</p>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-zinc-100 px-2 py-1 rounded">2025 - Present</span>
+          </div>
+          <ul class="text-sm text-zinc-600 space-y-2">
+            <li>• Delivered 3+ backend APIs following clean architecture principles</li>
+            <li>• Improved response times by 30% through query optimization</li>
+            <li>• Integrated smooth CI/CD pipelines with team of 5</li>
+          </ul>
+        </div>
+
+        <!-- Project Manager PGK -->
+        <div class="p-6 bg-white border border-zinc-200 rounded-2xl card-hover transition-all duration-300">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h3 class="font-bold text-lg">Project Manager</h3>
+              <p class="text-zinc-500 text-sm">PT Perangkat Guna Karya</p>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-zinc-100 px-2 py-1 rounded">2024 - 2025</span>
+          </div>
+          <ul class="text-sm text-zinc-600 space-y-2">
+            <li>• Led end-to-end development of multiple client projects</li>
+            <li>• Managed technical roadmaps for cross-functional teams</li>
+            <li>• Delivered JAIA Establishment & POS systems on-time</li>
+          </ul>
+        </div>
+
+        <!-- BPSMI -->
+        <div class="p-6 bg-white border border-zinc-200 rounded-2xl card-hover transition-all duration-300">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h3 class="font-bold text-lg">Fullstack Developer</h3>
+              <p class="text-zinc-500 text-sm">BPSMI Jawa Tengah</p>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-zinc-100 px-2 py-1 rounded">2024</span>
+          </div>
+          <p class="text-xs text-zinc-400 mb-3 italic">Peksimida Registration & Judging System</p>
+          <ul class="text-sm text-zinc-600 space-y-2">
+            <li>• Built event management system with Laravel 9 & Livewire</li>
+            <li>• Integrated Amazon S3 for cloud storage & CI/CD deployment</li>
+          </ul>
+        </div>
+
+        <!-- PKM Center -->
+        <div class="p-6 bg-white border border-zinc-200 rounded-2xl card-hover transition-all duration-300">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h3 class="font-bold text-lg">PM & Maintainer</h3>
+              <p class="text-zinc-500 text-sm">PKM Center UNS</p>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-zinc-100 px-2 py-1 rounded">2023</span>
+          </div>
+          <ul class="text-sm text-zinc-600 space-y-2">
+            <li>• Coordinated development of PKM Integrasi UNS platform</li>
+            <li>• Reduced deployment time by 70% through automation</li>
+          </ul>
+        </div>
+
+        <!-- Ekasa Internship -->
+        <div class="p-6 bg-white border border-zinc-200 rounded-2xl card-hover transition-all duration-300">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h3 class="font-bold text-lg">Backend Intern</h3>
+              <p class="text-zinc-500 text-sm">PT. Ekasa Nusantara</p>
+            </div>
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-zinc-100 px-2 py-1 rounded">2023</span>
+          </div>
+          <ul class="text-sm text-zinc-600 space-y-2">
+            <li>• Built 15+ REST API endpoints using Laravel 9</li>
+            <li>• Maintained 95% reliability across all endpoints</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mb-32">
+      <div class="flex items-center justify-between mb-12">
+        <h2 class="text-3xl font-bold tracking-tight">Technical Stack</h2>
+        <span class="text-zinc-400 text-sm font-mono">/ 02</span>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-4 border border-zinc-200 rounded-xl bg-white">
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="code-2" class="skill-icon text-zinc-400"></i>
+            <h4 class="text-xs font-bold text-zinc-400 uppercase">Languages</h4>
+          </div>
+          <p class="text-sm font-medium">Java, PHP, Kotlin, Javascript</p>
+        </div>
+        <div class="p-4 border border-zinc-200 rounded-xl bg-white">
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="layers" class="skill-icon text-zinc-400"></i>
+            <h4 class="text-xs font-bold text-zinc-400 uppercase">Frameworks</h4>
+          </div>
+          <p class="text-sm font-medium">Spring, Laravel, Livewire, JQuery</p>
+        </div>
+        <div class="p-4 border border-zinc-200 rounded-xl bg-white">
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="cloud" class="skill-icon text-zinc-400"></i>
+            <h4 class="text-xs font-bold text-zinc-400 uppercase">Cloud & DevOps</h4>
+          </div>
+          <p class="text-sm font-medium">AWS (S3, EC2), CI/CD, Docker</p>
+        </div>
+        <div class="p-4 border border-zinc-200 rounded-xl bg-white">
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="database" class="skill-icon text-zinc-400"></i>
+            <h4 class="text-xs font-bold text-zinc-400 uppercase">Database</h4>
+          </div>
+          <p class="text-sm font-medium">PostgreSQL, MySQL, Supabase</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-black text-white p-12 rounded-[2rem] text-center">
+      <h2 class="text-4xl font-bold mb-6 tracking-tight">Let's build something scalable.</h2>
+      <p class="text-zinc-400 mb-10 text-lg">Currently open to new backend opportunities and collaborations.</p>
+      <div class="flex flex-wrap justify-center gap-6">
+        <a href="mailto:bagasardi20155@gmail.com" class="text-lg font-medium border-b border-zinc-700 hover:border-white transition-all pb-1">Email</a>
+        <a href="https://linkedin.com/in/bagas-ardiansyah/" target="_blank" class="text-lg font-medium border-b border-zinc-700 hover:border-white transition-all pb-1">LinkedIn</a>
+        <a href="https://github.com/bagasardi20155" target="_blank" class="text-lg font-medium border-b border-zinc-700 hover:border-white transition-all pb-1">GitHub</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-zinc-200 flex flex-col md:flex-row justify-between items-center text-zinc-400 text-sm gap-4">
+    <p>© 2026 Bagas Ardiansyah</p>
+    <div class="flex gap-6">
+      <span class="font-mono text-[10px] uppercase tracking-widest"></span>
+    </div>
+  </footer>
+
+  <!-- Initialize Lucide icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
